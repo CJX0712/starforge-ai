@@ -1,0 +1,6 @@
+# 可选依赖：真实模型 / 高性能检索 / PDF 加载 / 指标
+# 安装：pip install -r requirements-optional.txt
+faiss-cpu>=1.7
+sentence-transformers>=2.2
+pypdf>=4.0
+prometheus-client>=0.19
