@@ -1,5 +1,5 @@
 # 容器化部署：默认 mock 后端，无网络/密钥即可运行
-FROM python:3.11-slim
+FROM python:3.13-slim
 WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt pytest
